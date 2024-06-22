@@ -1,6 +1,7 @@
-DB_HOST= 127.0.0.1
-DB_USER= "your sql username => example- root"
-DB_PASSWORD= "Your sql password"
-DB_NAME= "your DB name"
+DB_HOST= "Your aws host number"
+DB_USER= "Your sql username => example- root"
+DB_PASSWORD= "Your aws password"
+DB_NAME= "Your DB name"
 PORT= "Your port number"
+SERVER_PORT= "Your server port number"
 JWT_SECRET_KEY= "Your secret Key"
