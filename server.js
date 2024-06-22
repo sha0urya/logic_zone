@@ -10,7 +10,11 @@ const app = express();
 app.use(express.json());
 app.use('/api/auth', authRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Hello world, let's go Cloud");
+});
+
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.SERVER_PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
